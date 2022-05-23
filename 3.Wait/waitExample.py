@@ -27,7 +27,7 @@ login = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH,
                                                                                  '2]/div/form/input')))
 login.click()
 
-# time - Not recommended 
+# time - Not recommended
 time.sleep(10)
 
 # Implicit wait / soft wait
