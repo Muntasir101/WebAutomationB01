@@ -8,7 +8,7 @@ class ModulesDemo():
         print(fsum(num))  # imported from math
 
     def builtin_modules_sqrt(self):
-       print(math.sqrt(25))   # not imported from math
+       print(math.sqrt(25))   # imported from math
 
 
 obj = ModulesDemo()
